@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+    const int x=3.14;
+    float area,circumference,radius;
+    printf("enter radius");
+    scanf("%f",&radius);
+    area=x*radius*radius;
+    circumference=2*x*radius;
+    printf("%f\n",area);\
+    printf("%f\n",circumference);
+    return 0;
+}
